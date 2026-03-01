@@ -5,7 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Matthew Donnelly - Mechatronics Engineer and Designer</title>
     <!-- Link to your CSS file -->
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        @font-face {
+  font-family: AndanteDisplayBold;
+  src: url(AndanteDisplay-Bold.woff);
+}
+
+@font-face {
+  font-family: RobotoMono-Regular;
+  src: url(RobotoMono-Regular.woff);
+}
+
+
+body {
+    font-family: RobotoMono-Regular;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: black;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin: 0;
+  display:block;
+}
+
+.Image_cont {
+    position: relative;
+
+}
+
+.outside {
+    position: absolute;
+    transition: .3s;
+    opacity: 0%;
+}
+
+.outside:hover {
+    opacity: 100%;
+}
+.inside {
+  width: 100%;
+}
+
+.centred {
+    text-align: center;
+}
+
+.row::after {
+  content: "";
+  padding: 0;
+  margin: 0;
+  display:table;
+  clear: both;
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+}
+
+h2 {
+    font-family: AndanteDisplayBold;
+    font-size: 60px;
+    text-align: center;
+}
+header {
+    background-color: #c00011;
+    color: #fff;
+    font-family: AndanteDisplayBold;
+    text-align: center;
+    padding: 1em;
+}
+
+.Title {
+    font-family: AndanteDisplayBold;
+    font-size: 40px;
+    color:#ffffff
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#projects article {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+}
+</style>    
 </head>
 <body>
 <header>
